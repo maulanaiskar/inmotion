@@ -1,0 +1,19 @@
+4) Variable I (i besar atau l kecil)? Apabila l maka program tidak bisa dijalankan, akan tetapi apabila i maka hasilnya adalah
+	6
+	5
+	4
+	3
+	2
+	1
+5) static  String count(ArrayList    mylist){
+    int    a  =  0,b    =  0,c    =  0;
+    for(int    i  =  0; i  <  mylist.size(); i++){
+        Object element=mylist.get(i);
+        if(element instanceOf Student)
+        a++;
+        if(element instanceOf Rockstar)
+        b++;
+        if(element instanceOf Hacker)
+        c++;
+    }
+  }
